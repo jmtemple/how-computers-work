@@ -9,12 +9,13 @@ This lab covers a variety of topics related to how computers "work." This lab is
 
 ### Logic gates and digital circuits
 This section of the lab incorporates elements of the "Log gates & digital circuits" lab:
-- Written: Marge M. Coahran, April 2008
+- Written: Marge Coahran, April 2008
 - Revised: Jerod Weinman, 17 March 2009
 - Revised: Marge Coahran, 14 April 2010
 - Revised: Jerod Weinman, 22 March 2011 & 15 April 2011
 - Revised: Jerod Weinman, 3 April 2014
 - Revised: Jerod Weinman, 1 April 2015
+- Portions adapted from Coahran and Weinman
 
 ### Data path and memory
 This section of the lab is based on the "Data path & memory" lab:
@@ -34,8 +35,7 @@ This section of the lab is based on the "Machine language" lab:
 # Table of Contents
 
 - [Logic gates and digital circuits](#logic-gates-and-digital-circuits)
-  * [Installing SmartSim](#installing-smartsim)
-  * [Getting Started With SmartSim](#getting-started-with-smartsim)
+  * [Academo Logic Gate Simulator](#using-academo-logic-gate-simulator)
 - [Data path and memory](#data-path-and-memory)
   * [CPU Data Path](#cpu-data-path)
   * [ALU Operation](#alu-operation)
@@ -49,34 +49,27 @@ This section of the lab is based on the "Machine language" lab:
 
 # Logic gates and digital circuits
 
-## Installing SmartSim 
+## Using Academo Logic Gate Simulator
 
-1. The software we will use for this lab is [called SmartSim](https://smartsim.org.uk/index.php?page=downloads), "a free and open source digital logic circuit design and simulation package.” SmartSim is released under a GNU General Public License Version 3.
+1. The tool we will use for this lab is [Academo Logic Gate Simulator](https://academo.org/demos/logic-gate-simulator/), "a free online resource for digital logic circuit design and simulation.”
 
-2. Open a Terminal window and use `sudo apt-get update` and `sudo apt-get install smartsim` to install SmartSimP on your Pi.
+2. Open Academo.
 
-3. Open SmartSim.
-
-## Getting Started With SmartSim
-
-4. Work through the [SmartSim User Manual](https://smartsim.org.uk/downloads/manual/smartsim_user_manual.pdf) to become familiar with the program interface and explore various functions.
-
-5. After working through the user manual, attempt the following tasks:
-  * add an input switch
-  * add wires to your circuit
-  * move or reposition circuit elements
-  * delete wires from your circuit
-  * add an output pin (LED) 
-  * connect your input switch to the LED
-  * use the input switch to turn the LED on and off
+3. Attempt the following tasks:
+  * connect your input switch to the output pin
+  * use the input switch to turn the output on and off
+  * add another input switch 
   * add an `AND-Gate` to your circuit
   * connect two input switches to the `AND-Gate`'s input points
-  * connect an LED to the `AND-GATE`'s output point.
+  * connect an output pin to the `AND-GATE`'s output point.
   * test all possible input combinations
-  * add an `OR-Gate` and `NOT-gate` 
-  * test inputs for these new gates
+  * replace the `AND-Gate` with an `OR-Gate` 
+  * test all possible inputs for these new gates
+  * replace the current gate with an `XOR-Gate`
+  * test all possible inputs for these new gates
+  * create a system involving 2 levels of gates (first level, any combination of `AND-Gate`'s and/or `OR-Gate`'s, and the second level, an `XOR-Gate` or `NOR-Gate`
 
-<blockquote>Q1: Describe your experience attempting each of tasks, relying on the documentation provided in the user manual. What went well? What was challenging? What lingering questions do you have about how circuits work? Include an image of your circuit.</blockquote>
+<blockquote>Q1: Describe your experience attempting each of tasks. What went well? What was challenging? What lingering questions do you have about how circuits and logic gates work? Include an image of your final logic gate system involving 2 levels of gates with the output state being 'ON' and explain what is happening at each level to make turn the output state 'ON'.</blockquote>
 
 # Data path and memory
 
