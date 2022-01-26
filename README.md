@@ -69,7 +69,7 @@ Attempt the following tasks:
   * replace the `AND-Gate` with an `OR-Gate` 
   * test all possible inputs for these new gates
   * replace the current gate with an `XOR-Gate`
-  * test all possible inputs for these new gates
+  * test all possible inputs for these all remaining gates e.g., `NOR-Gate`, `NAND-Gate`, and `AND-3W-Gate`
   * create a system involving 2 levels of gates (first level, any combination of `AND-Gate`'s and/or `OR-Gate`'s, and the second level, an `XOR-Gate` or `NOR-Gate`
 
 <blockquote>Q1: Describe your experience attempting each of tasks. What went well? What was challenging? What lingering questions do you have about how circuits and logic gates work? Include an image of your final logic gate system involving 2 levels of gates with the output state being 'ON' and explain what is happening at each level to make turn the output state 'ON'.</blockquote>
