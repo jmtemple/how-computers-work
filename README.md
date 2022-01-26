@@ -1,7 +1,7 @@
 # Logic gates, digital circuits, data path, memory, and machine language
 
 ### PLEASE READ ALL INSTRUCTIONS OF THE LAB
-### Entitle your lab notebook documents in the following convention Lab#_Notebook_LastName.ext (Example for this lab: Lab1_Notebook_Templeton.pdf)
+### Entitle your lab notebook documents in the following convention Lab#_Notebook_LastName.ext (Example for this lab: Lab2_Notebook_Templeton.pdf)
 
 <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license"><img style="border-width: 0;" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" alt="Creative Commons License" /></a>
 This tutorial is licensed under a <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
